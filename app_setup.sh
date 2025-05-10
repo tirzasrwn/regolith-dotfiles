@@ -6,6 +6,7 @@ sudo apt install -y \
 	fzf \
 	git \
 	mpv \
+	neovim \
 	rofi \
 	screenkey \
 	tmux \

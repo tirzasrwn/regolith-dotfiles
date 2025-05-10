@@ -8,6 +8,6 @@ https://archive.regolith-desktop.com/debian/stable bookworm v3.2" | \
 sudo tee /etc/apt/sources.list.d/regolith.list
 
 sudo apt update
-sudo apt install regolith-desktop regolith-session-flashback regolith-look-lascaille
+sudo apt install regolith-desktop regolith-session-flashback regolith-look-lascaille -y
 
 ./i3_setup.sh

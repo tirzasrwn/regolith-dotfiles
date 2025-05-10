@@ -1,2 +1,7 @@
-!regolith.look.path: /usr/share/regolith-look/catppuccin
 regolith.look.path: /usr/share/regolith-look/catppuccin
+gnome.terminal.font: FiraCode Nerd Font 12
+i3xrocks.value.font: FiraCode Nerd Font
+gtk.document_font_name: FiraCode Nerd Font
+gtk.font_name: FiraCode Nerd Font
+gtk.monospace_font_name: FiraCode Nerd Font
+wm.font: FiraCode Nerd Font
