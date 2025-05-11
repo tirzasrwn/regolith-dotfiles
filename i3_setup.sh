@@ -9,7 +9,6 @@ sudo apt install -y \
 	i3xrocks-info \
 	i3xrocks-memory \
 	i3xrocks-net-traffic \
-	i3xrocks-rofication \
 	i3xrocks-time \
 	i3xrocks-volume \
 	i3xrocks-wifi

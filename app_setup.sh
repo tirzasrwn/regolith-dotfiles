@@ -2,9 +2,11 @@
 
 sudo apt update
 sudo apt install -y \
+	dunst \
 	ffmpeg \
 	fzf \
 	git \
+	libnotify-bin \
 	mpv \
 	neovim \
 	rofi \
@@ -12,6 +14,9 @@ sudo apt install -y \
 	tmux \
 	wget \
 	zsh
+
+sudo apt purge regolith-rofication -y
+sudo apt autoremove -y
 
 cp -frv ./_config/* ~/.config
 cp -frv ./_local/* ~/.local
