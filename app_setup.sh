@@ -4,6 +4,7 @@ sudo apt update
 sudo apt install -y \
 	dunst \
 	ffmpeg \
+	flameshot \
 	fzf \
 	git \
 	libnotify-bin \

@@ -1,7 +1,32 @@
+# $mod = Cmd, $cmd = Alt
+set $mod Mod4
+set $cmd Mod1
+
+# Enable rofi search
+bindsym $mod+d exec rofi -show drun
+
+# Lock
+bindsym $cmd+l exec loginctl lock-session
+
 # dpkg -S /usr/share/regolith/i3/config.d/60_config_keybindings
 # sudo apt autoremove regolith-i3-gnome
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# Screenshoot with flameshot
+bindsym $cmd+s exec flameshot gui
+
+# List, show, select, and open directory from .directory_list file using nautilus
+bindsym $cmd+d exec $HOME/.local/bin/open-directory >/dev/null 2>&1 &
+
+# Toggle screenkey
+bindsym $cmd+k exec $HOME/.local/bin/toggle-app screenkey >/dev/null 2>&1 &
+
+# List, show, select, and open document file from .directory_list file using xdg-open and zathura
+bindsym $cmd+f exec $HOME/.local/bin/open-file >/dev/null 2>&1 &
 
