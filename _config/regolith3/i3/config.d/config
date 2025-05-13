@@ -5,9 +5,6 @@ set $cmd Mod1
 # Enable rofi search
 bindsym $mod+d exec rofi -show drun
 
-# Lock
-bindsym $cmd+l exec loginctl lock-session
-
 # dpkg -S /usr/share/regolith/i3/config.d/60_config_keybindings
 # sudo apt autoremove regolith-i3-gnome
 # change container layout (stacked, tabbed, toggle split)

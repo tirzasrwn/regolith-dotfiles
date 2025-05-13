@@ -7,6 +7,7 @@ sudo apt install -y \
 	i3xrocks-cpu-usage \
 	i3xrocks-focused-window-name \
 	i3xrocks-info \
+	i3xrocks-key-indicator \
 	i3xrocks-memory \
 	i3xrocks-net-traffic \
 	i3xrocks-time \
