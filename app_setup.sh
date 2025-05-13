@@ -3,6 +3,7 @@
 sudo apt update
 sudo apt install -y \
 	dunst \
+	exa \
 	ffmpeg \
 	flameshot \
 	fzf \
