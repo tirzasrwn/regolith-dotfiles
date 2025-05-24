@@ -3,7 +3,6 @@
 sudo apt purge regolith-rofication -y
 sudo apt autoremove -y
 
-sudo apt install -y regolith-look-dracula
-regolith-look set dracula
+./catpputccin_setup.sh
 
 notify-send "post_setup.sh finished!"
