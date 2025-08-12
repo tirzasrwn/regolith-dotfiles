@@ -15,6 +15,7 @@ sudo apt install -y \
 	screenkey \
 	tmux \
 	wget \
+	xdotool \
 	zsh
 
 cp -frv ./_config/* ~/.config
